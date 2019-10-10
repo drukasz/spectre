@@ -4,13 +4,21 @@ Play the audio file, and run any spectrogram app on your smartphone or tablet. W
 Example output attached - audio and screenshoot. 
 
 Input:
+
 disp - text to be displayed
+
 foutname - name of the output audio file
+
 flow - lowest frequency (bottom symbol dot line) [Hz]
-df - step size between subsequent dots in frequency domain
-tdot - duration time of a single column
+
+df - step size between subsequent dots in frequency domain [Hz]
+
+tdot - duration time of a single column [s]
+
 nfreqs - number of rows, do not change unless you also use different symbol codes
-fs - sampling frequency of the output audio file
+
+fs - sampling frequency of the output audio file [Hz]
+
 
 List of the available symbols can be found in the symbols5x8.py
 
