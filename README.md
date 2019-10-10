@@ -20,6 +20,10 @@ nfreqs - number of rows, do not change unless you also use different symbol code
 fs - sampling frequency of the output audio file [Hz]
 
 
+Output:
+
+.wav file created in the current directory
+
 List of the available symbols can be found in the symbols5x8.py
 
 The output audio file can be also mixed with any other sound, just try to keep the frequency contents separated.
